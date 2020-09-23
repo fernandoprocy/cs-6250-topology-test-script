@@ -7,7 +7,7 @@ Disclaimer: Only tested on the VM provided. Python 2.7.6 and pytest 2.5.1 are al
 
 Clone/Download the repository and extract into the project's root folder.
 
-Run `py.test test_topologies.py` to run the tests with the default settings.
+Run `py.test test_topologies.py` inside the project's root folder to run the tests with the default settings.
 
 # Customizing
 
