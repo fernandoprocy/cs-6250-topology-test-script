@@ -15,3 +15,8 @@ Run `py.test test_topologies.py` to run the tests with the default settings.
 e.g.: If your reference logs are in a folder called `results`, run `REF_DIR=results py.test test_topologies.py`.
 
 - If you want to skip/add some tests, currently you will have to do it by editing the file itself. Edit the file and comment/add the lines inside the @pytest.mark.parametrize decorator corresponding to the tests you want to skip or add.
+
+
+# Troubleshooting
+
+- If you're getting errors like len(ref_log) == 0, check if the file has the correct without carriage returns. If they have carriage returns, run something like `dos2unix` on the VM to remove them.
