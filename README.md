@@ -23,4 +23,4 @@ e.g.: If your reference logs are in a folder called `results`, run `REF_DIR=resu
 
 # Troubleshooting
 
-- If you're getting errors like len(ref_log) == 0, check if the file has the correct without carriage returns. If they have carriage returns, run something like `dos2unix` on the VM to remove them.
+- If you're getting errors like len(ref_log) == 0, check if the file has the correct without carriage returns. If they have carriage returns, run something like `dos2unix` on the VM to remove them. I'd rather not change the test file to handle CRLFs because the final file should be submitted without them and forgiving it here could perpetuate a bad practice.
