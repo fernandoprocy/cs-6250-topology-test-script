@@ -1,6 +1,10 @@
 # cs-6250-topology-test-script
 Simple Pytest script to test the topologies for Project 4 of the CS6250 OMSCS Fall 20 class.
 
+# Disclaimer
+
+This is by no means an official tool. It has been provided as an aid for students to test their code output, but getting a pass here doesn't guarantee passing the autograder. If you decide to use this piece of software, keep that in mind!
+
 # How to use
 
 Disclaimer: Only tested on the VM provided. Python 2.7.6 and pytest 2.5.1 are already installed on the VM.
