@@ -27,7 +27,7 @@ def read_file(filename_path):
 
 def execute_algorithm(topo_name):
     try:
-        check_call(["./run.sh", topo_name], stdout=FNULL, stderr=STDOUT)
+        check_call(["./run.sh", topo_name], stdout=FNULL, stderr=FNULL)
     except CalledProcessError:
         raise RuntimeError("Execution of algorithm on topology {} failed.".format(topo_name))
 
