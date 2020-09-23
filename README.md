@@ -18,7 +18,7 @@ Run `py.test test_topologies.py` inside the project's root folder to run the tes
 - If your reference files folder isn't named `reference`, you can optionally use an environment variable to set it.
 e.g.: If your reference logs are in a folder called `results`, run `REF_DIR=results py.test test_topologies.py`.
 
-- If you want to skip/add some tests, currently you will have to do it by editing the file itself. Edit the file and comment/add the lines inside the @pytest.mark.parametrize decorator corresponding to the tests you want to skip or add.
+- If you want to skip/add some tests, currently you will have to do it by editing the file itself. Edit the file and comment/add the lines inside the TEST_TOPOLOGIES list corresponding to the tests you want to skip or add.
 
 
 # Troubleshooting
